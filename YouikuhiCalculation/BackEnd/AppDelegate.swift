@@ -10,12 +10,25 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        changeNavigationBarColor()
+        
         return true
     }
+    
+    func changeNavigationBarColor() {
+            // 全てのNavigation Barの色を変更する
+            // Navigation Bar の背景色の変更
+            UINavigationBar.appearance().barTintColor = AppColor.primary
+            // Navigation Bar の文字色の変更
+            UINavigationBar.appearance().tintColor = AppColor.secondary
+            // Navigation Bar のタイトルの文字色の変更
+            UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: AppColor.background]
+        }
 
     // MARK: UISceneSession Lifecycle
 
