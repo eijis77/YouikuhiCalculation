@@ -26,5 +26,5 @@ Cartography,SCLAlertView
 語彙解説用のタブもあり養育費に関する知識を深めることができる。
 
 ## URL
-
+https://youikuhicalculation.xyz/  
 https://apps.apple.com/jp/app/%E9%A4%8A%E8%82%B2%E8%B2%BB%E8%A8%88%E7%AE%97%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id1563463692
